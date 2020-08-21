@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-21T17:52:16 IST" name="Peets production test suite" finished-at="2020-08-21T17:59:10 IST" duration-ms="414219">
+    <groups>
+    </groups>
+    <test started-at="2020-08-21T17:52:16 IST" name="Peets Prod Automation" finished-at="2020-08-21T17:59:10 IST" duration-ms="414219">
+      <class name="com.qa.testcases.Coffeepagetest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.Coffeepagetest@4b14c583]" started-at="2020-08-21T17:57:24 IST" name="setup" finished-at="2020-08-21T17:57:37 IST" duration-ms="12745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchcoffeitem()[pri:1, instance:com.qa.testcases.Coffeepagetest@4b14c583]" started-at="2020-08-21T17:57:37 IST" name="searchcoffeitem" finished-at="2020-08-21T17:57:37 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchcoffeitem -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.Coffeepagetest@4b14c583]" started-at="2020-08-21T17:57:37 IST" name="teardown" finished-at="2020-08-21T17:57:38 IST" duration-ms="795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.Coffeepagetest@4b14c583]" started-at="2020-08-21T17:57:38 IST" name="setup" finished-at="2020-08-21T17:57:52 IST" duration-ms="13379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="coffeePDPpage()[pri:2, instance:com.qa.testcases.Coffeepagetest@4b14c583]" started-at="2020-08-21T17:57:52 IST" name="coffeePDPpage" finished-at="2020-08-21T17:57:59 IST" duration-ms="7668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coffeePDPpage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.Coffeepagetest@4b14c583]" started-at="2020-08-21T17:57:59 IST" name="teardown" finished-at="2020-08-21T17:58:00 IST" duration-ms="834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.Coffeepagetest@4b14c583]" started-at="2020-08-21T17:58:00 IST" name="setup" finished-at="2020-08-21T17:58:13 IST" duration-ms="12795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="incresedecrease()[pri:3, instance:com.qa.testcases.Coffeepagetest@4b14c583]" started-at="2020-08-21T17:58:13 IST" name="incresedecrease" finished-at="2020-08-21T17:58:35 IST" duration-ms="21852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incresedecrease -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.Coffeepagetest@4b14c583]" started-at="2020-08-21T17:58:35 IST" name="teardown" finished-at="2020-08-21T17:58:36 IST" duration-ms="882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.Coffeepagetest@4b14c583]" started-at="2020-08-21T17:58:36 IST" name="setup" finished-at="2020-08-21T17:58:49 IST" duration-ms="13430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="coffeeitemtocart()[pri:4, instance:com.qa.testcases.Coffeepagetest@4b14c583]" started-at="2020-08-21T17:58:49 IST" name="coffeeitemtocart" finished-at="2020-08-21T17:59:09 IST" duration-ms="20395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coffeeitemtocart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.Coffeepagetest@4b14c583]" started-at="2020-08-21T17:59:09 IST" name="teardown" finished-at="2020-08-21T17:59:10 IST" duration-ms="787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.testcases.Coffeepagetest -->
+      <class name="com.qa.testcases.Homepagetest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.Homepagetest@433d61fb]" started-at="2020-08-21T17:53:13 IST" name="setup" finished-at="2020-08-21T17:53:26 IST" duration-ms="13059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Hoveronsubscriptionsheaderlink()[pri:1, instance:com.qa.testcases.Homepagetest@433d61fb]" started-at="2020-08-21T17:53:26 IST" name="Hoveronsubscriptionsheaderlink" finished-at="2020-08-21T17:53:26 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hoveronsubscriptionsheaderlink -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.Homepagetest@433d61fb]" started-at="2020-08-21T17:53:26 IST" name="teardown" finished-at="2020-08-21T17:53:27 IST" duration-ms="683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.Homepagetest@433d61fb]" started-at="2020-08-21T17:53:27 IST" name="setup" finished-at="2020-08-21T17:53:40 IST" duration-ms="13136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Hoveronsubscriptionsheaderlinkclick()[pri:2, instance:com.qa.testcases.Homepagetest@433d61fb]" started-at="2020-08-21T17:53:40 IST" name="Hoveronsubscriptionsheaderlinkclick" finished-at="2020-08-21T17:53:40 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hoveronsubscriptionsheaderlinkclick -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.Homepagetest@433d61fb]" started-at="2020-08-21T17:53:40 IST" name="teardown" finished-at="2020-08-21T17:53:41 IST" duration-ms="665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.Homepagetest@433d61fb]" started-at="2020-08-21T17:53:41 IST" name="setup" finished-at="2020-08-21T17:53:54 IST" duration-ms="13088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Hoveronlocationsheaderlink()[pri:3, instance:com.qa.testcases.Homepagetest@433d61fb]" started-at="2020-08-21T17:53:54 IST" name="Hoveronlocationsheaderlink" finished-at="2020-08-21T17:53:55 IST" duration-ms="776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hoveronlocationsheaderlink -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.Homepagetest@433d61fb]" started-at="2020-08-21T17:53:55 IST" name="teardown" finished-at="2020-08-21T17:53:56 IST" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.Homepagetest@433d61fb]" started-at="2020-08-21T17:53:56 IST" name="setup" finished-at="2020-08-21T17:54:09 IST" duration-ms="12833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Hoveronmenuheaderlink()[pri:4, instance:com.qa.testcases.Homepagetest@433d61fb]" started-at="2020-08-21T17:54:09 IST" name="Hoveronmenuheaderlink" finished-at="2020-08-21T17:54:09 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hoveronmenuheaderlink -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.Homepagetest@433d61fb]" started-at="2020-08-21T17:54:09 IST" name="teardown" finished-at="2020-08-21T17:54:09 IST" duration-ms="694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.Homepagetest@433d61fb]" started-at="2020-08-21T17:54:09 IST" name="setup" finished-at="2020-08-21T17:54:23 IST" duration-ms="13330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Hoveronrewardslink()[pri:5, instance:com.qa.testcases.Homepagetest@433d61fb]" started-at="2020-08-21T17:54:23 IST" name="Hoveronrewardslink" finished-at="2020-08-21T17:54:23 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hoveronrewardslink -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.Homepagetest@433d61fb]" started-at="2020-08-21T17:54:23 IST" name="teardown" finished-at="2020-08-21T17:54:24 IST" duration-ms="696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.Homepagetest@433d61fb]" started-at="2020-08-21T17:54:24 IST" name="setup" finished-at="2020-08-21T17:54:38 IST" duration-ms="14090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigatetocoffeehomepage()[pri:6, instance:com.qa.testcases.Homepagetest@433d61fb]" started-at="2020-08-21T17:54:38 IST" name="navigatetocoffeehomepage" finished-at="2020-08-21T17:55:19 IST" duration-ms="41285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatetocoffeehomepage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.Homepagetest@433d61fb]" started-at="2020-08-21T17:55:19 IST" name="teardown" finished-at="2020-08-21T17:55:20 IST" duration-ms="672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.Homepagetest@433d61fb]" started-at="2020-08-21T17:55:20 IST" name="setup" finished-at="2020-08-21T17:55:34 IST" duration-ms="14658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigatetoteahomepage()[pri:7, instance:com.qa.testcases.Homepagetest@433d61fb]" started-at="2020-08-21T17:55:34 IST" name="navigatetoteahomepage" finished-at="2020-08-21T17:55:37 IST" duration-ms="2229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatetoteahomepage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.Homepagetest@433d61fb]" started-at="2020-08-21T17:55:37 IST" name="teardown" finished-at="2020-08-21T17:55:37 IST" duration-ms="657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.Homepagetest@433d61fb]" started-at="2020-08-21T17:55:37 IST" name="setup" finished-at="2020-08-21T17:56:10 IST" duration-ms="32451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigatetoequipmenthomepage()[pri:8, instance:com.qa.testcases.Homepagetest@433d61fb]" started-at="2020-08-21T17:56:10 IST" name="navigatetoequipmenthomepage" finished-at="2020-08-21T17:56:12 IST" duration-ms="2221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatetoequipmenthomepage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.Homepagetest@433d61fb]" started-at="2020-08-21T17:56:12 IST" name="teardown" finished-at="2020-08-21T17:56:13 IST" duration-ms="674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.Homepagetest@433d61fb]" started-at="2020-08-21T17:56:13 IST" name="setup" finished-at="2020-08-21T17:56:26 IST" duration-ms="13087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigatetorewardshomepage()[pri:9, instance:com.qa.testcases.Homepagetest@433d61fb]" started-at="2020-08-21T17:56:26 IST" name="navigatetorewardshomepage" finished-at="2020-08-21T17:56:29 IST" duration-ms="3126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatetorewardshomepage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.Homepagetest@433d61fb]" started-at="2020-08-21T17:56:29 IST" name="teardown" finished-at="2020-08-21T17:56:29 IST" duration-ms="704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.testcases.Homepagetest -->
+      <class name="com.qa.testcases.seachpagetest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.seachpagetest@5c909414]" started-at="2020-08-21T17:56:29 IST" name="setup" finished-at="2020-08-21T17:56:42 IST" duration-ms="12817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchandscroll()[pri:1, instance:com.qa.testcases.seachpagetest@5c909414]" started-at="2020-08-21T17:56:42 IST" name="searchandscroll" finished-at="2020-08-21T17:56:43 IST" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchandscroll -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.seachpagetest@5c909414]" started-at="2020-08-21T17:56:43 IST" name="teardown" finished-at="2020-08-21T17:56:43 IST" duration-ms="801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.seachpagetest@5c909414]" started-at="2020-08-21T17:56:43 IST" name="setup" finished-at="2020-08-21T17:56:57 IST" duration-ms="13420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clicksearch()[pri:2, instance:com.qa.testcases.seachpagetest@5c909414]" started-at="2020-08-21T17:56:57 IST" name="clicksearch" finished-at="2020-08-21T17:57:05 IST" duration-ms="8108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicksearch -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.seachpagetest@5c909414]" started-at="2020-08-21T17:57:05 IST" name="teardown" finished-at="2020-08-21T17:57:06 IST" duration-ms="776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.seachpagetest@5c909414]" started-at="2020-08-21T17:57:06 IST" name="setup" finished-at="2020-08-21T17:57:19 IST" duration-ms="12870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchtea()[pri:3, instance:com.qa.testcases.seachpagetest@5c909414]" started-at="2020-08-21T17:57:19 IST" name="searchtea" finished-at="2020-08-21T17:57:24 IST" duration-ms="5100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchtea -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.seachpagetest@5c909414]" started-at="2020-08-21T17:57:24 IST" name="teardown" finished-at="2020-08-21T17:57:24 IST" duration-ms="833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.testcases.seachpagetest -->
+      <class name="com.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.LoginPageTest@5cee5251]" started-at="2020-08-21T17:52:16 IST" name="setup" finished-at="2020-08-21T17:52:30 IST" duration-ms="14314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginpagetitletest()[pri:1, instance:com.qa.testcases.LoginPageTest@5cee5251]" started-at="2020-08-21T17:52:30 IST" name="loginpagetitletest" finished-at="2020-08-21T17:52:30 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpagetitletest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.LoginPageTest@5cee5251]" started-at="2020-08-21T17:52:30 IST" name="teardown" finished-at="2020-08-21T17:52:31 IST" duration-ms="675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.LoginPageTest@5cee5251]" started-at="2020-08-21T17:52:31 IST" name="setup" finished-at="2020-08-21T17:52:44 IST" duration-ms="13079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="crmlogotest()[pri:2, instance:com.qa.testcases.LoginPageTest@5cee5251]" started-at="2020-08-21T17:52:44 IST" name="crmlogotest" finished-at="2020-08-21T17:52:44 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crmlogotest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.LoginPageTest@5cee5251]" started-at="2020-08-21T17:52:44 IST" name="teardown" finished-at="2020-08-21T17:52:45 IST" duration-ms="675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.LoginPageTest@5cee5251]" started-at="2020-08-21T17:52:45 IST" name="setup" finished-at="2020-08-21T17:52:59 IST" duration-ms="14342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logintest()[pri:3, instance:com.qa.testcases.LoginPageTest@5cee5251]" started-at="2020-08-21T17:52:59 IST" name="logintest" finished-at="2020-08-21T17:53:13 IST" duration-ms="13527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.LoginPageTest@5cee5251]" started-at="2020-08-21T17:53:13 IST" name="teardown" finished-at="2020-08-21T17:53:13 IST" duration-ms="749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.testcases.LoginPageTest -->
+    </test> <!-- Peets Prod Automation -->
+  </suite> <!-- Peets production test suite -->
+</testng-results>
