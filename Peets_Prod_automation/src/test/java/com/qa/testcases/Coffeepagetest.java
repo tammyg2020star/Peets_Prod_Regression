@@ -51,7 +51,6 @@ public class Coffeepagetest extends testbase
 		//coffee.increseanddescreseqty();
 		coffee.openPDPpage();
 		coffee.increseanddescreseqty();
-		
 	}
 	
 	@Test(priority=4)

@@ -11,8 +11,9 @@
        <class name="com.qa.testcases.LoginPageTest"/>
       <class name="com.qa.testcases.Homepagetest"/>
       <class name="com.qa.testcases.seachpagetest"/>
-     <class name="com.qa.testcases.Coffeepagetest"/>
-     
+     <class name="com.qa.testcases.Sign_up_page_test"/>
+      <class name="com.qa.testcases.checckout_page_test"/>
+       <class name="com.qa.testcases.Footer_page_test"/>
     </classes>
   </test> 
 </suite> 

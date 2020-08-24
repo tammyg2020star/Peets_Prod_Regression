@@ -17,7 +17,7 @@ public class Coffeepage extends testbase
 {
 	public Actions action;
 	public Select select;
-	WebDriverWait wait=new WebDriverWait(driver,10);
+	WebDriverWait wait=new WebDriverWait(driver,15);
 	
 	@FindBy(id="shop-header-link")
 	WebElement shophover;
@@ -40,13 +40,13 @@ public class Coffeepage extends testbase
 	@FindBy(xpath="//*[@id=\"qinputminus-12725\"]")
 	WebElement minus;
 	
-	
 	@FindBy(xpath="//*[@class='thumb-link']")
 	WebElement thumblink;
 	
 	@FindBy(xpath="//a[@class=\"cart-link underlined-link\" and contains(text(),'View Cart')]")
 	WebElement verifycart;
 	
+
 	public Coffeepage()
 	{
 		PageFactory.initElements(driver,this);
@@ -65,7 +65,8 @@ public class Coffeepage extends testbase
 		Thread.sleep(3000);
 		//coffeeitem.click();
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("arguments[0].click()",itemtocart);
+		js.executeScript("arguments[0].click()",wait.until(ExpectedConditions.visibilityOfElementLocated
+				(By.xpath("//a[@title=\"Organic French Roast\" and @tabindex=\"0\"]"))));
 		Thread.sleep(3000);
 		thumblink.click();
 	}
@@ -88,16 +89,20 @@ public class Coffeepage extends testbase
 		shpcoffelnk.click();
 		Thread.sleep(2000);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("arguments[0].click()",itemtocart);
+		js.executeScript("arguments[0].click()",wait.until(ExpectedConditions.visibilityOfElementLocated
+				(By.xpath("//a[@title=\"Organic French Roast\" and @tabindex=\"0\"]"))));
 		Thread.sleep(3000);
 		//driver.manage().wait(2000);
 		 select = new Select(driver.findElement(By.id("attribute198")));
 		select.selectByVisibleText("Drip");
 		Thread.sleep(2000);
 		clickoncart.click();
-		//driver.manage().wait(3000);
+		Thread.sleep(2000);
 		verifycart.click();
+		
+		//viewcart.click();
 	}
+	
 	
 	
 }
