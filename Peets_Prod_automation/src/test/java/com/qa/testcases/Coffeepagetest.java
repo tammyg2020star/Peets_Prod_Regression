@@ -59,6 +59,13 @@ public class Coffeepagetest extends testbase
 		coffee.additemtocart();
 	}
 	
+	@Test(priority=5)
+	public void verifyremovecart() throws InterruptedException
+	{
+		coffee.removecart();
+	}
+	 
+	
 	@AfterMethod
 	public void teardown()
 	{

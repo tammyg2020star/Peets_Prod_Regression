@@ -67,6 +67,7 @@ public class Checkout_page extends testbase
 	
 	@FindBy(xpath="//span[contains(text(),'Continue')]")
 	WebElement continue1;
+	
 	public Checkout_page()
 	{
 		PageFactory.initElements(driver,this);

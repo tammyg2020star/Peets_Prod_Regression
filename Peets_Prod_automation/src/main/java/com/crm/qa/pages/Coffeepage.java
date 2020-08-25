@@ -1,7 +1,9 @@
 package com.crm.qa.pages;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
@@ -17,6 +19,7 @@ public class Coffeepage extends testbase
 {
 	public Actions action;
 	public Select select;
+	public Alert alert;
 	WebDriverWait wait=new WebDriverWait(driver,15);
 	
 	@FindBy(id="shop-header-link")
@@ -46,6 +49,8 @@ public class Coffeepage extends testbase
 	@FindBy(xpath="//a[@class=\"cart-link underlined-link\" and contains(text(),'View Cart')]")
 	WebElement verifycart;
 	
+	@FindBy(xpath="//a[@class='remove' and contains(text(),'remove')]")
+	WebElement remove;
 
 	public Coffeepage()
 	{
@@ -73,6 +78,8 @@ public class Coffeepage extends testbase
 	
 	public void increseanddescreseqty() throws InterruptedException
 	{
+		try
+		{
 		shophover.click();
 		shpcoffelnk.click();
 		JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -81,10 +88,16 @@ public class Coffeepage extends testbase
 		plus.click();
 		Thread.sleep(2000);
 		minus.click();
+		}	
+		catch(StaleElementReferenceException e) {
+        }
+		
 	}
 	
 	public void additemtocart()throws InterruptedException
 	{
+		try
+		{
 		shophover.click();
 		shpcoffelnk.click();
 		Thread.sleep(2000);
@@ -99,10 +112,37 @@ public class Coffeepage extends testbase
 		clickoncart.click();
 		Thread.sleep(2000);
 		verifycart.click();
+		}	
+		catch(StaleElementReferenceException e) {
+        }
 		
 		//viewcart.click();
 	}
-	
-	
-	
+	public void removecart() throws InterruptedException
+	{
+		try
+		{
+			shophover.click();
+			shpcoffelnk.click();
+			Thread.sleep(2000);
+			JavascriptExecutor js = (JavascriptExecutor) driver;
+			js.executeScript("arguments[0].click()",wait.until(ExpectedConditions.visibilityOfElementLocated
+					(By.xpath("//a[@title=\"Organic French Roast\" and @tabindex=\"0\"]"))));
+			Thread.sleep(3000);
+			//driver.manage().wait(2000);
+			 select = new Select(driver.findElement(By.id("attribute198")));
+			select.selectByVisibleText("Drip");
+			Thread.sleep(2000);
+			clickoncart.click();
+			Thread.sleep(2000);
+			//verifycart.click();
+			//Thread.sleep(2000);
+			remove.click();
+		 alert = driver.switchTo().alert();
+		alert.getText();  //getting text
+		alert.accept();
+		}//click on Ok	
+		catch(StaleElementReferenceException e) {
+        }
+	}
 }
