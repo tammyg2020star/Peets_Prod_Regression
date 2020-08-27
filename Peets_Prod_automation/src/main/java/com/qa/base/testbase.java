@@ -14,7 +14,9 @@ import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import com.qa.Util.WebEventListener;
 import com.qa.Util.testutil;
-
+/**
+ * Author: @Tammyg
+ */
 public class testbase 
 {
 	public static WebDriver driver;
@@ -26,8 +28,7 @@ public class testbase
 	{
 		try
 		{
-			
-		
+				
  prop=new Properties();
 		
 		FileInputStream fip=new FileInputStream("C:\\Users\\Thimmegowda\\Desktop\\Eclipse_work\\Peets_coffe2\\src\\main\\java\\com\\qa\\config\\config.properties");

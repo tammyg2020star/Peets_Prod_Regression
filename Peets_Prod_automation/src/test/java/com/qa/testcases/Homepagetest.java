@@ -23,14 +23,12 @@ public class Homepagetest extends testbase
 		initialization();
 		 homepage=new Homepage();
 	} 
-	
 	@Test(priority=1)
 	public void Hoveronsubscriptionsheaderlink() throws InterruptedException
 	{
 	 homepage.shopheaderlinkhoverdisplayed();
 		
 	}
-	
 
 	@Test(priority=2)
 	public void Hoveronsubscriptionsheaderlinkclick() throws InterruptedException

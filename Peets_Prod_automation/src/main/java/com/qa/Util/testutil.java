@@ -15,6 +15,10 @@ import org.openqa.selenium.TakesScreenshot;
 
 import com.qa.base.testbase;
 
+/**
+ * Author: @Tammyg
+ */
+
 public class testutil extends testbase
 {
 	//this is insted of giving the timeout in baseclass, we can give here and call that in base class

@@ -10,6 +10,10 @@ import org.openqa.selenium.support.events.WebDriverEventListener;
 
 import com.qa.base.testbase;
 
+/**
+ * Author: @Tammyg
+ */
+
 public class WebEventListener extends testbase implements WebDriverEventListener
 {
 

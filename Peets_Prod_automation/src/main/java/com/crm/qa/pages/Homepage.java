@@ -85,7 +85,7 @@ public class Homepage extends testbase
 			action.moveToElement(shopheaderlink).build().perform();
 			Thread.sleep(2000);
 			coffeepage.click();
-			
+			Thread.sleep(2000);
 			return new Coffeepage();
 		}
 		

@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.testcases.Coffeepagetest">
+      <class name="com.qa.testcases.Homepagetest">
         <methods>
-          <include name="teardown"/>
+          <include name="navigatetoteahomepage"/>
           <include name="setup"/>
-          <include name="verifyremovecart"/>
+          <include name="navigatetorewardshomepage"/>
+          <include name="navigatetoequipmenthomepage"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- com.qa.testcases.Coffeepagetest -->
+      </class> <!-- com.qa.testcases.Homepagetest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

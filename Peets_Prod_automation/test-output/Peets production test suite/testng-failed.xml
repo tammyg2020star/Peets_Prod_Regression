@@ -13,13 +13,20 @@
           <include name="addcontactpresent"/>
         </methods>
       </class> <!-- com.qa.testcases.Sign_up_page_test -->
-      <class name="com.qa.testcases.checckout_page_test">
+      <class name="com.qa.testcases.Teapgaetest">
         <methods>
-          <include name="checkout_check"/>
           <include name="teardown"/>
           <include name="setup"/>
+          <include name="verifypagmentpage"/>
         </methods>
-      </class> <!-- com.qa.testcases.checckout_page_test -->
+      </class> <!-- com.qa.testcases.Teapgaetest -->
+      <class name="com.qa.testcases.Coffeepagetest">
+        <methods>
+          <include name="teardown"/>
+          <include name="incresedecrease"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.testcases.Coffeepagetest -->
     </classes>
   </test> <!-- Peets Prod Automation(failed) -->
 </suite> <!-- Failed suite [Peets production test suite] -->

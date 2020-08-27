@@ -3,33 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.testcases.Footer_page_test">
+      <class name="com.qa.testcases.Homepagetest">
         <methods>
-          <include name="verify_Peets_Cards"/>
-          <include name="verifyGrocery_Storeslink"/>
-          <include name="verifySocialResponsibilitylink"/>
-          <include name="verifySupplyChainTransparencylnk"/>
-          <include name="verify_Shipping_Returnslink"/>
-          <include name="verifyOurpeoplelink"/>
-          <include name="HverifyMightyLeafTealnk"/>
-          <include name="verifyResponsibleSourcinglnkcheck"/>
-          <include name="verifyOfficeCoffeelink"/>
-          <include name="verifyCodeofEthicslnkcheck"/>
-          <include name="verifySubmitASitelnkcheck"/>
-          <include name="verify_Current_Offerslink"/>
-          <include name="verify_Peetnik_cardslnk"/>
-          <include name="verifyAffiliateProgramlnkcheck"/>
-          <include name="verifyreferafriendlink"/>
+          <include name="navigatetoteahomepage"/>
           <include name="setup"/>
-          <include name="Help_Centerfooterlnkcheck"/>
-          <include name="verify_my_account_link"/>
-          <include name="verifyJoinPeetslink"/>
-          <include name="verifyLicensedPartners"/>
-          <include name="verifyNewsroom"/>
-          <include name="verifyProudlyPouringlnkcheck"/>
+          <include name="navigatetorewardshomepage"/>
+          <include name="navigatetoequipmenthomepage"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- com.qa.testcases.Footer_page_test -->
+      </class> <!-- com.qa.testcases.Homepagetest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
