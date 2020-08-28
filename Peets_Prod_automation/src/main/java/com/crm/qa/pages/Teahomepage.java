@@ -264,7 +264,7 @@ public class Teahomepage extends testbase
 				// js = (JavascriptExecutor) driver;
 					//js.executeScript("arguments[0].click()",wait.until(ExpectedConditions.visibilityOfElementLocated
 							//(By.xpath("//*[@id='payment-button-continue']"))));
-				//driver.findElement(By.xpath("//button[@id='payment-button-continue' and @onclick='payment.save()']")).click();
+	
 				Thread.sleep(3000);
 		}
 		catch(StaleElementReferenceException e) {
